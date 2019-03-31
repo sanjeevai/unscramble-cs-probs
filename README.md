@@ -55,7 +55,7 @@ are three different kinds of telephone numbers, each with a different format:
   140. Example: `1402316533`.
 
 ## Files
-
+<pre>
 .
 ├── Analysis.txt
 ├── Task0.py---Display the first record of texts and the last record of calls?
@@ -66,6 +66,7 @@ are three different kinds of telephone numbers, each with a different format:
 ├── Task4.py---Identify telemarketer based on their calling and texting behavior.
 ├── calls.csv--#UNTRACKED. calls data
 └── texts.csv--#UNTRACKED. texts data
+</pre>
 
 ## Software Requirements
 

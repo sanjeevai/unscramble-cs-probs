@@ -1,0 +1,33 @@
+Assumption:
+length of calls list = c
+length of texts list = t
+
+Task 0
+Time complexity in this code is O(1) because we are just extracting an
+index-based value.
+The runtime of code does not depend on the length of input in this case.
+
+Task 1
+If length of `telephone_numbers` list is k. Then the time complexity for this
+program is O(t*k + c*k)
+
+Task 2
+When calculating maximum duration we loop through each record's duration.
+And when comparing each record to the max value, we again loop through each
+record's duration.
+
+So, this program has O(2n) time complexity. Or to simplify it, O(n).
+
+Task 3
+I am looping through `calls` list one times, on line 48So the time
+complexity in this case is O(n).
+
+And on lines 67 and 72, I am looping through the `codes` list also. If the length of
+`codes` is k. Then time complexity for the program is O(n + 2k), or to simplify,
+O(n + k)
+
+Task 4
+Line 29 to 32 add O(2c + 2t) to time complexity. If the lengths of
+call_initiators, call_receivers, text_senders, text_receivers are ci, cr, ts and
+tr, respectively, then line 35 to 37 add O(ci*(cr+cr+ts)) to the complexity.
+So overall, time complexity is O(2c + 2t + ci*(cr+cr+ts)). Or to simplify it, O(c+t).

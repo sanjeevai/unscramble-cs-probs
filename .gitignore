@@ -1,0 +1,5 @@
+# vscode prefs
+.vscode/
+
+# input data
+*.csv
